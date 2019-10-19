@@ -1,0 +1,13 @@
+version: '3.4'
+volumes:
+  rotki: {}
+services:
+  rotki.dnp.dappnode.eth:
+    container_name: "rotki.dnp.dappnode.eth"
+    image: "rotki.dnp.dappnode.eth:0.0.1"
+    build: ./build
+    volumes:
+      - rotki:/opt/rotki
+    dns: 172.33.1.2
+    restart: always
+    network_mode: host

@@ -1,0 +1,26 @@
+{
+  "name": "rotki.dnp.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Rotki - the only opensource asset analytics, tracking, management and tax reporting application that enables you to take ownership of your financial data.",
+  "type": "",
+  "avatar": "QmaK2TbQxnYDP6y1NrqvdmGCJMzys3hsyqJ8Yg2KicuXJV",
+  "image": {
+    "path": "rotki.dnp.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmUKev9NbJfh8bfw7XMwioCntLHMbP8zjnX1KpTvQbKbfw",
+    "size": 51490830,
+    "ports": [
+      "8732:8732",
+      "9732:9732/udp"
+    ],
+    "restart": "always",
+    "privileged": "true",
+    "volumes": [
+      "rotki:/var/run/tezos/node"
+    ]
+  },
+  "author": "",
+  "license": "",
+  "links": {
+    "OnboardingWizard": "http://my.rotki.dnp.dappnode.eth:8091"
+  }
+}
