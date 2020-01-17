@@ -4,7 +4,7 @@ volumes:
 services:
   rotki.dnp.dappnode.eth:
     container_name: "rotki.dnp.dappnode.eth"
-    image: "rotki.dnp.dappnode.eth:0.0.2"
+    image: "rotki.dnp.dappnode.eth:0.0.1"
     build: ./build
     volumes:
       - rotki:/opt/rotki
